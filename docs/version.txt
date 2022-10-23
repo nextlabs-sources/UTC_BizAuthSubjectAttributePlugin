@@ -1,0 +1,23 @@
+VERSION_NUMBER:44547
+RELEASE_DATE:June  20th 2013
+
+June 28th 2013
+--Made changes for License Log Obligation
+
+June 20th 2013
+- Bug fixes in QueryBuilder and UtilService.join
+- ArrayList Ievalvalue changes to Arraylist of String 
+
+June 14th 2013
+-Password encryption --Common_AC 
+-Control table update and lookup
+	Select rows with ‘S’ in LockedBy and don’t read the data.
+	Before reading the data, update LockedBy to ‘N’. 
+
+-Multi-value handling on dictionary data
+	For each attribute name, we will also have a separator configuration (optional).
+	If a separator configuration exists and if the value is multi-string (coming as array) – then handle the data processing appropriately.
+
+
+May 31 2013
+-Base Version release
